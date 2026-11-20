@@ -162,7 +162,8 @@ body {
 
 .banner pre {
   margin: 0 0 12px;
-  line-height: 1.25;
+  /* Box-drawing glyphs only join up when lines touch. */
+  line-height: 1.05;
 }
 
 .neofetch {

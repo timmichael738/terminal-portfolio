@@ -10,6 +10,8 @@ with a few easter eggs.
 
 ### 👉 [Live demo](https://timmichael738.github.io/terminal-portfolio/)
 
+![Terminal portfolio](docs/screenshot.png)
+
 ```text
 visitor@portfolio:~$ help
 visitor@portfolio:~$ projects
