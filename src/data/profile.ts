@@ -70,6 +70,15 @@ export const profile: Profile = {
       repo: gh('hookrelay'),
     },
     {
+      slug: 'inkwell',
+      name: 'Inkwell',
+      tagline: 'Real-time collaborative Markdown editor',
+      description:
+        'Yjs CRDTs synced over a hand-written y-websocket server, live cursors and presence, SQLite persistence and version history.',
+      stack: ['TypeScript', 'Yjs', 'WebSockets', 'CodeMirror', 'React'],
+      repo: gh('inkwell'),
+    },
+    {
       slug: 'terminal-portfolio',
       name: 'Terminal Portfolio',
       tagline: 'This site',
@@ -98,6 +107,16 @@ export const profile: Profile = {
       stack: ['React', 'TypeScript', 'dnd-kit'],
       repo: gh('flowboard'),
       demo: pages('flowboard'),
+    },
+    {
+      slug: 'lumen-ui',
+      name: 'Lumen UI',
+      tagline: 'Accessible React component library',
+      description:
+        'WAI-ARIA patterns with full keyboard support, axe-tested components, CSS-variable theming and Storybook docs.',
+      stack: ['React', 'TypeScript', 'Storybook', 'axe-core'],
+      repo: gh('lumen-ui'),
+      demo: pages('lumen-ui'),
     },
     {
       slug: 'diffsense',
